@@ -1,0 +1,11 @@
+def areaTriangulo( b,h):
+    print  ((b*h) /2)
+
+areaTriangulo(5,3)
+
+def areaCirculo( r):
+    areaCirculo = (3.14116 * r **2)
+    numeroDecimal = round(areaCirculo, 2)
+    print (numeroDecimal)
+
+areaCirculo(5)
